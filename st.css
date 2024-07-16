@@ -1,0 +1,50 @@
+@media screen {
+    .container {
+        display: flex;
+        /* flex-direction: row-reverse; */
+        justify-content: space-around;
+        border: 10px solid green;
+        height: 90vh;
+        align-items: last baseline;
+        font-size: 1em;
+        flex-wrap: wrap-reverse;
+        column-gap: 1em;
+        row-gap: 1em;
+    }
+    
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    font-size: 8rem;
+    text-align: center;
+    border-radius: 15px;
+
+}
+
+#box1 {
+    background-color: red;
+    align-self: center;
+}
+
+#box2 {
+    background-color: yellow;
+    /* order: -1; */
+}
+
+#box3 {
+    background-color: blue;
+}
+
+#box4 {
+    background-color: black;
+    align-self: end;
+}
+
