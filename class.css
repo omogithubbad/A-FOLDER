@@ -4,8 +4,22 @@
     margin: 0;
 }
 
-.container {
+.mainContainer {
     display: flex;
-    justify-content: center;
-    height: 90vh;
+    justify-content: space-between; 
+    padding: 0 5%;
+    align-items: center;
 }
+
+.section1 {
+    width: 45%;
+}
+
+.section2 {
+    width: 45%;
+}
+
+.section2 img {
+    width: 100%;
+}
+
