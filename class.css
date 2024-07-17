@@ -1,7 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap');
+
+
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+body {
+    /font-family: "Red Rose", serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 5%;   
+
+}
+
+
+
+.a {
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 40%; */
+    gap: 3rem;
+    align-items: center;
+}
+
+.button {
+    background-color: #A02279;
+    color: white;
+    border-radius: 10px;
+    /* left: 1070px; */
+    /* height: 35px; */
+    /* width: 170px; */
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
 }
 
 .mainContainer {
@@ -15,11 +51,45 @@
     width: 45%;
 }
 
+.section1 h1 {
+    font-size: 3rem;
+    
+}
+
+.section1 h1 span {
+    color: #A02279;
+    font-weight: 700;
+    
+}
+
+.section1 p {
+    font-size: 1.3rem;
+    line-height: 35px;
+    margin-top: 1rem;
+
+}
+
+
+
 .section2 {
     width: 45%;
 }
 
 .section2 img {
     width: 100%;
+}
+
+.search {
+    flex-direction: column;
+    cursor: pointer;
+    padding: 0.5rem;
+    margin-top: 2rem;
+    width: 50%;
+    border-radius: 8px 0px 0px 8px;
+    border: #A3A3A3 1px solid;
+
+    
+    
+   
 }
 
