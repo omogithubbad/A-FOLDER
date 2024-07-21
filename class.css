@@ -72,6 +72,8 @@ header {
     width: 100%;
 }
 
+
+
 .search {
     flex-direction: column;
     cursor: pointer;
