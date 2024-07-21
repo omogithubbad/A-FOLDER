@@ -8,12 +8,14 @@
 
 body {
     font-family: "Red Rose", serif;
+    margin: 3rem 3rem;
+
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    padding: 2rem 5%;   
+    /* padding: 2rem 5%;    */
 
 }
 
@@ -26,10 +28,11 @@ header {
     border-radius: 11px;
     /* left: 1070px; */
     /* height: 35px; */
-    /* width: 170px; */
     border: none;
     padding: 0.5rem 0.5rem;
     cursor: pointer;
+    font-size: 0.5rem;
+    row-gap: 50px;
 }
 
 .mainContainer {
@@ -79,7 +82,7 @@ header {
     cursor: pointer;
     padding: 0.5rem;
     margin-top: 2rem;
-    width: 50%;
+    width: 80%;
     border-radius: 8px 0px 0px 8px;    border: #A3A3A3 1px solid;
     font-size: 0.5rem;      
 }
