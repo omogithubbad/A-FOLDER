@@ -84,6 +84,7 @@ header {
     font-size: 0.5rem;      
 }
 
+
 @media screen and (max-width: 640px) {
     body {
         background-color: pink;
