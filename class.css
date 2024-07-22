@@ -6,9 +6,16 @@
     margin: 0;
 }
 
+.image1 {
+    /* justify-content: space-between; */
+    /* margin-left: 0.5rem; */
+    /* gap: 5rem; */
+}
+
+
 body {
     font-family: "Red Rose", serif;
-    margin: 3rem 3rem;
+    margin: 2rem 2rem;
 
 }
 
@@ -19,7 +26,6 @@ header {
 
 }
 
-
 .button {
     background-color: #A02279;
     color: white;
@@ -27,10 +33,13 @@ header {
     /* left: 1070px; */
     /* height: 35px; */
     border: none;
-    padding: 0.5rem 0.5rem;
+    padding: 1rem 1rem;
     cursor: pointer;
     font-size: 0.5rem;
     row-gap: 50px;
+    /* gap: 3rem; */
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .mainContainer {
@@ -67,6 +76,8 @@ header {
 
 .section2 {
     width: 100%;
+    margin-left: 1rem;
+    
 }
 
 .section2 img {
