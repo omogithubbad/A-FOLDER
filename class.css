@@ -39,8 +39,8 @@ header {
     font-size: 0.5rem;
     row-gap: 50px;
     /* gap: 3rem; */
-    margin-left: 3rem;
-    margin-right: 3rem;
+    margin-left: 1rem;
+    margin-right: 4rem;
 }
 
 .mainContainer {
@@ -53,6 +53,8 @@ header {
 
 .section1 {
     width: 100%;
+    margin-top: 5rem;
+    margin-right: 1rem;
 }
 
 .section1 h1 {
@@ -69,18 +71,22 @@ header {
 .section1 p {
     font-size: 1rem;
     line-height: 35px;
-    margin-top: 1rem;
+    margin-top: 2rem;
+   
     
 }
 
 
 
 .section2 {
-    width: 30rem;
+    width: 100%;
     margin-left: 1rem;
-    /* height: 50rem; */
+    /* height: 10px; */
     border-radius: 15px;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
+    height: 10rem;
+    margin-bottom: 15rem;
+    
     
     
 }
@@ -97,7 +103,7 @@ header {
     cursor: pointer;
     padding: 0.5rem;
     margin-top: 2rem;
-    width: 50%;
+    width: 70%;
     border-radius: 8px 0px 0px 8px;    border: #A3A3A3 1px solid;
     font-size: 0.5rem;      
 }
