@@ -51,11 +51,7 @@ header {
     /* flex-direction: column; */
 }
 
-.section1 {
-    width: 100%;
-    margin-top: 1.5rem;
-    margin-right: 1rem;
-}
+
 
 .section1 h1 {
     font-size: 2rem;
@@ -91,13 +87,6 @@ header {
     
 }
 
-.section2 img {
-    width: 100%;
-    /* height: 50vh; */
-}
-
-
-
 .search {
     flex-direction: column;
     cursor: pointer;
@@ -118,6 +107,15 @@ header {
 
     }
 
+    .section1 {
+        width: 100%;
+        margin-top: 1.5rem;
+        margin-right: 1rem;
+    }
+  
+.section2 {
+    width: 100%;
+}
     
 }
 
@@ -139,7 +137,6 @@ header {
         display: none;
         cursor: pointer;
     
-    }
-    
+    }   
 }
 
