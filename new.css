@@ -273,11 +273,14 @@ p {
     
     .small {
         color: #FBB034;
-        margin-top: 1rem;
-        /* margin-bottom: 5rem; */
+        /* margin-bottom: 50rem; */
         /* position: absolute; */
         /* top: 0; */
         /* right: 0; */
+    }
+
+    .cont small {
+        margin-bottom: 4rem;
     }
     
     h1 {
