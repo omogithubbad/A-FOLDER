@@ -65,7 +65,7 @@ header {
     align-items: center;
     padding-left: 5%;
     /* position: relative; */
-    margin-bottom: 1rem;
+    /* margin-bottom: 1rem; */
 
     
 }
@@ -216,7 +216,7 @@ p {
         cursor: pointer;
         color: white;
         /* /* align-items: center; * */
-        padding: 1rem 5%;
+        padding: 2rem 5%;
     }
     
     .home {
